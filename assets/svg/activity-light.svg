@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="activity-light-title activity-light-desc">
+<title id="activity-light-title">Public GitHub activity</title>
+<desc id="activity-light-desc">Public repositories: 32. Followers: 1. Latest public event: Push on 19 Nov 2026. Refreshed 20 Nov 2026, 23:53 WIB.</desc>
+<rect x="0.5" y="0.5" width="1199" height="259" rx="12" fill="#FAFAFA" stroke="#E4E4E7" stroke-width="1"/>
+<text x="48" y="52" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="22" font-weight="600" fill="#09090B">Public Activity</text>
+<text x="1152" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#71717A" text-anchor="end" letter-spacing="1">SOURCE · GITHUB REST API</text>
+<rect x="48" y="76" width="264" height="132" rx="10" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1"/>
+<text x="68" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#71717A" letter-spacing="1">01 — PUBLIC REPOSITORIES</text>
+<text x="68" y="162" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="40" font-weight="700" fill="#09090B" letter-spacing="-0.5">32</text>
+<text x="68" y="188" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="11" font-weight="500" fill="#71717A">Owned, public</text>
+<rect x="328" y="76" width="264" height="132" rx="10" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1"/>
+<text x="348" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#71717A" letter-spacing="1">02 — FOLLOWERS</text>
+<text x="348" y="162" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="40" font-weight="700" fill="#09090B" letter-spacing="-0.5">1</text>
+<text x="348" y="188" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="11" font-weight="500" fill="#71717A">GitHub followers</text>
+<rect x="608" y="76" width="264" height="132" rx="10" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1"/>
+<text x="628" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#71717A" letter-spacing="1">03 — LATEST PUBLIC EVENT</text>
+<circle cx="850" cy="102" r="3" fill="#10B981"/>
+<text x="628" y="162" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="26" font-weight="700" fill="#09090B" letter-spacing="-0.5">19 Nov 2026</text>
+<text x="628" y="188" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="11" font-weight="500" fill="#71717A">Push · kedai-karuhun</text>
+<rect x="888" y="76" width="264" height="132" rx="10" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1"/>
+<text x="908" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#71717A" letter-spacing="1">04 — LAST REFRESH</text>
+<text x="908" y="162" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="26" font-weight="700" fill="#09090B" letter-spacing="-0.5">20 Nov 2026</text>
+<text x="908" y="188" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="11" font-weight="500" fill="#71717A">23:53 WIB · Asia/Jakarta</text>
+<line x1="48" y1="228" x2="1152" y2="228" stroke="#E4E4E7" stroke-width="1"/>
+<text x="48" y="246" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#71717A" letter-spacing="0.2">Latest event reflects GitHub’s recent public events window only — not a total of commits or contributions.</text>
+</svg>

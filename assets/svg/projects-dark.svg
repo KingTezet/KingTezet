@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="projects-dark-title projects-dark-desc">
+<title id="projects-dark-title">Featured projects</title>
+<desc id="projects-dark-desc">01 MEDAL — Platform for local events, stand registration, and an MSME directory for Sumedang Regency, built around a verified admin review workflow. 02 Kedai Karuhun — Mobile-first commerce application with phone-number authentication, admin tooling, configurable store theming, and web push. 03 ARSIS — Enterprise-oriented project management system for construction operations. PT Adipati Rekayasa Sistem. 04 NATA OS — An integrated digital productivity ecosystem for habits, goals, focus, and financial organization.</desc>
+<rect x="0.5" y="0.5" width="1199" height="539" rx="12" fill="#09090B" stroke="#27272A" stroke-width="1"/>
+<rect x="32" y="32" width="560" height="230" rx="12" fill="#111113" stroke="#27272A" stroke-width="1"/>
+<text x="60" y="70" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="500" fill="#FAFAFA" letter-spacing="1">01</text>
+<text x="90" y="70" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#A1A1AA" letter-spacing="1">EVENT &amp; MSME DIRECTORY PLATFORM</text>
+<text x="60" y="110" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="19" font-weight="600" fill="#FAFAFA">MEDAL</text>
+<text x="60" y="138" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="400" fill="#A1A1AA">Platform for local events, stand registration, and an MSME directory for</text>
+<text x="60" y="158" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="400" fill="#A1A1AA">Sumedang Regency, built around a verified admin review workflow.</text>
+<line x1="60" y1="176" x2="564" y2="176" stroke="#27272A" stroke-width="1"/>
+<text x="60" y="198" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#FAFAFA" letter-spacing="0.3">Next.js 16 / TypeScript / Supabase RLS / RPC state transitions / Zod /</text>
+<text x="60" y="214" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#FAFAFA" letter-spacing="0.3">Vitest</text>
+<circle cx="63" cy="240" r="3" fill="#10B981"/>
+<text x="74" y="244" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#A1A1AA" letter-spacing="1">PUBLIC REPOSITORY · LIVE DEMO</text>
+<rect x="608" y="32" width="560" height="230" rx="12" fill="#111113" stroke="#27272A" stroke-width="1"/>
+<text x="636" y="70" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="500" fill="#FAFAFA" letter-spacing="1">02</text>
+<text x="666" y="70" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#A1A1AA" letter-spacing="1">MOBILE-FIRST COMMERCE PWA</text>
+<text x="636" y="110" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="19" font-weight="600" fill="#FAFAFA">Kedai Karuhun</text>
+<text x="636" y="138" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="400" fill="#A1A1AA">Mobile-first commerce application with phone-number authentication,</text>
+<text x="636" y="158" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="400" fill="#A1A1AA">admin tooling, configurable store theming, and web push.</text>
+<line x1="636" y1="176" x2="1140" y2="176" stroke="#27272A" stroke-width="1"/>
+<text x="636" y="198" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#FAFAFA" letter-spacing="0.3">Next.js / React / TypeScript / Supabase Auth / Postgres / Storage / PWA /</text>
+<text x="636" y="214" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#FAFAFA" letter-spacing="0.3">Web Push</text>
+<circle cx="639" cy="240" r="3" fill="#10B981"/>
+<text x="650" y="244" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#A1A1AA" letter-spacing="1">PUBLIC REPOSITORY · LIVE DEMO</text>
+<rect x="32" y="278" width="560" height="230" rx="12" fill="#111113" stroke="#27272A" stroke-width="1"/>
+<text x="60" y="316" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="500" fill="#FAFAFA" letter-spacing="1">03</text>
+<text x="90" y="316" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#A1A1AA" letter-spacing="1">ENTERPRISE CONSTRUCTION PROJECT MANAGEMENT</text>
+<text x="60" y="356" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="19" font-weight="600" fill="#FAFAFA">ARSIS</text>
+<text x="60" y="384" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="400" fill="#A1A1AA">Enterprise-oriented project management system for construction</text>
+<text x="60" y="404" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="400" fill="#A1A1AA">operations. PT Adipati Rekayasa Sistem.</text>
+<line x1="60" y1="422" x2="564" y2="422" stroke="#27272A" stroke-width="1"/>
+<text x="60" y="444" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#FAFAFA" letter-spacing="0.3">Business process digitization / Project workflows / Operational data /</text>
+<text x="60" y="460" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#FAFAFA" letter-spacing="0.3">Enterprise architecture</text>
+<circle cx="63" cy="486" r="3" fill="none" stroke="#A1A1AA" stroke-width="1"/>
+<text x="74" y="490" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#A1A1AA" letter-spacing="1">PRIVATE PROJECT</text>
+<rect x="608" y="278" width="560" height="230" rx="12" fill="#111113" stroke="#27272A" stroke-width="1"/>
+<text x="636" y="316" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="500" fill="#FAFAFA" letter-spacing="1">04</text>
+<text x="666" y="316" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#A1A1AA" letter-spacing="1">DIGITAL PRODUCTIVITY ARCHITECTURE</text>
+<text x="636" y="356" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="19" font-weight="600" fill="#FAFAFA">NATA OS</text>
+<text x="636" y="384" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="400" fill="#A1A1AA">An integrated digital productivity ecosystem for habits, goals, focus,</text>
+<text x="636" y="404" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="400" fill="#A1A1AA">and financial organization.</text>
+<line x1="636" y1="422" x2="1140" y2="422" stroke="#27272A" stroke-width="1"/>
+<text x="636" y="444" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#FAFAFA" letter-spacing="0.3">Habit OS / Money OS / Focus OS / Goals OS / Next.js / Tailwind CSS v4</text>
+<circle cx="639" cy="486" r="3" fill="#10B981"/>
+<text x="650" y="490" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#A1A1AA" letter-spacing="1">PUBLIC REPOSITORY · LIVE DEMO</text>
+</svg>

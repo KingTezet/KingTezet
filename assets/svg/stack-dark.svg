@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="stack-dark-title stack-dark-desc">
+<title id="stack-dark-title">Core technology stack</title>
+<desc id="stack-dark-desc">Frontend: React, Next.js, TypeScript, Tailwind CSS. Backend &amp; Data: Supabase, PostgreSQL, REST APIs. Infrastructure: Docker, Git, GitHub Actions. Spatial &amp; 3D: WebXR, 3D Asset Optimization, Geometry Analysis.</desc>
+<rect x="0.5" y="0.5" width="1199" height="249" rx="12" fill="#09090B" stroke="#27272A" stroke-width="1"/>
+<text x="48" y="52" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="22" font-weight="600" fill="#FAFAFA">Core Stack</text>
+<text x="1152" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#A1A1AA" text-anchor="end" letter-spacing="1">04 GROUPS · FRONTEND-LED</text>
+<rect x="48" y="72" width="264" height="152" rx="10" fill="#111113" stroke="#27272A" stroke-width="1"/>
+<text x="68" y="102" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#FAFAFA" letter-spacing="1">01 — FRONTEND</text>
+<circle cx="290" cy="98" r="3" fill="#10B981"/>
+<line x1="68" y1="116" x2="292" y2="116" stroke="#27272A" stroke-width="1"/>
+<text x="68" y="144" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="500" fill="#FAFAFA">React</text>
+<text x="68" y="165" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="500" fill="#FAFAFA">Next.js</text>
+<text x="68" y="186" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="500" fill="#FAFAFA">TypeScript</text>
+<text x="68" y="207" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="500" fill="#FAFAFA">Tailwind CSS</text>
+<rect x="328" y="72" width="264" height="152" rx="10" fill="#111113" stroke="#27272A" stroke-width="1"/>
+<text x="348" y="102" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#A1A1AA" letter-spacing="1">02 — BACKEND &amp; DATA</text>
+<line x1="348" y1="116" x2="572" y2="116" stroke="#27272A" stroke-width="1"/>
+<text x="348" y="144" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="400" fill="#FAFAFA">Supabase</text>
+<text x="348" y="165" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="400" fill="#FAFAFA">PostgreSQL</text>
+<text x="348" y="186" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="400" fill="#FAFAFA">REST APIs</text>
+<rect x="608" y="72" width="264" height="152" rx="10" fill="#111113" stroke="#27272A" stroke-width="1"/>
+<text x="628" y="102" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#A1A1AA" letter-spacing="1">03 — INFRASTRUCTURE</text>
+<line x1="628" y1="116" x2="852" y2="116" stroke="#27272A" stroke-width="1"/>
+<text x="628" y="144" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="400" fill="#FAFAFA">Docker</text>
+<text x="628" y="165" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="400" fill="#FAFAFA">Git</text>
+<text x="628" y="186" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="400" fill="#FAFAFA">GitHub Actions</text>
+<rect x="888" y="72" width="264" height="152" rx="10" fill="#111113" stroke="#27272A" stroke-width="1"/>
+<text x="908" y="102" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#A1A1AA" letter-spacing="1">04 — SPATIAL &amp; 3D</text>
+<line x1="908" y1="116" x2="1132" y2="116" stroke="#27272A" stroke-width="1"/>
+<text x="908" y="144" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="400" fill="#FAFAFA">WebXR</text>
+<text x="908" y="165" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="400" fill="#FAFAFA">3D Asset Optimization</text>
+<text x="908" y="186" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="14" font-weight="400" fill="#FAFAFA">Geometry Analysis</text>
+</svg>

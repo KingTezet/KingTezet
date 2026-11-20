@@ -1,0 +1,48 @@
+name: Update Profile Statistics
+
+on:
+  schedule:
+    # 17:17 UTC = 00:17 WIB (Asia/Jakarta, UTC+7) on the next local day
+    - cron: "17 17 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-statistics
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+
+      - name: Update profile statistics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: npm run update:stats
+
+      - name: Validate generated assets
+        run: npm run validate
+
+      - name: Commit updated statistics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/svg/activity-dark.svg assets/svg/activity-light.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(profile): refresh public statistics"
+            git push
+          else
+            echo "No statistics changes detected."
+          fi
