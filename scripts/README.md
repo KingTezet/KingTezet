@@ -6,7 +6,8 @@
 | `render-static.mjs` | Renders `hero`, `stack`, `projects` SVGs (dark + light) from the config. Run after editing the config: `npm run render:static`. |
 | `update-stats.mjs` | Fetches `GET /users/{owner}` and `GET /users/{owner}/events/public` and renders `activity-{dark,light}.svg`. Needs `GITHUB_TOKEN` and `GITHUB_REPOSITORY_OWNER`. |
 | `validate-svg.py` | Parses every SVG with `xml.etree.ElementTree`, checks dimensions, dark/light pairs, forbidden content, and README local asset paths. |
-| `lib/svg.mjs`, `lib/write.mjs` | Design tokens, XML escaping, text helpers; atomic group writes. |
+| `lib/svg.mjs`, `lib/write.mjs` | Design tokens mirroring the portfolio site (warm off-white, zinc scale, SF Pro/Inter, mono labels, rounded cards, pills), XML escaping, layout helpers; atomic group writes. |
+| `../assets/img/*.jpg` | Source images (portrait + project covers from the portfolio site), embedded into SVGs as base64 data URIs — no remote fetches. |
 
 ## Local run
 
@@ -30,3 +31,4 @@ No npm dependencies — Node 22 built-ins (`fetch`, `Intl`, `fs/promises`) and P
 - *Latest public event* comes from GitHub's recent public events window (max ~90 days / 300 events). It is not a total of commits or contributions, and private activity is never included.
 - Missing values render as `N/A` / `NO RECENT PUBLIC ACTIVITY`, never `0`.
 - Static availability marker only — no CSS/SMIL animation (GitHub image proxy rendering is not guaranteed).
+- Design intentionally follows the portfolio (warm glow, gradient headline text) rather than the original PRD monochrome rule, per owner request.

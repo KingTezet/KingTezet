@@ -1,26 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="activity-light-title activity-light-desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="activity-light-title activity-light-desc">
 <title id="activity-light-title">Public GitHub activity</title>
-<desc id="activity-light-desc">Public repositories: 32. Followers: 1. Latest public event: Push on 19 Nov 2026. Refreshed 20 Nov 2026, 23:54 WIB.</desc>
-<rect x="0.5" y="0.5" width="1199" height="259" rx="12" fill="#FAFAFA" stroke="#E4E4E7" stroke-width="1"/>
-<text x="48" y="52" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="22" font-weight="600" fill="#09090B">Public Activity</text>
-<text x="1152" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#71717A" text-anchor="end" letter-spacing="1">SOURCE · GITHUB REST API</text>
-<rect x="48" y="76" width="264" height="132" rx="10" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1"/>
-<text x="68" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#71717A" letter-spacing="1">01 — PUBLIC REPOSITORIES</text>
-<text x="68" y="162" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="40" font-weight="700" fill="#09090B" letter-spacing="-0.5">32</text>
-<text x="68" y="188" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="11" font-weight="500" fill="#71717A">Owned, public</text>
-<rect x="328" y="76" width="264" height="132" rx="10" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1"/>
-<text x="348" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#71717A" letter-spacing="1">02 — FOLLOWERS</text>
-<text x="348" y="162" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="40" font-weight="700" fill="#09090B" letter-spacing="-0.5">1</text>
-<text x="348" y="188" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="11" font-weight="500" fill="#71717A">GitHub followers</text>
-<rect x="608" y="76" width="264" height="132" rx="10" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1"/>
-<text x="628" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#71717A" letter-spacing="1">03 — LATEST PUBLIC EVENT</text>
-<circle cx="850" cy="102" r="3" fill="#10B981"/>
-<text x="628" y="162" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="26" font-weight="700" fill="#09090B" letter-spacing="-0.5">19 Nov 2026</text>
-<text x="628" y="188" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="11" font-weight="500" fill="#71717A">Push · kedai-karuhun</text>
-<rect x="888" y="76" width="264" height="132" rx="10" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1"/>
-<text x="908" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#71717A" letter-spacing="1">04 — LAST REFRESH</text>
-<text x="908" y="162" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="26" font-weight="700" fill="#09090B" letter-spacing="-0.5">20 Nov 2026</text>
-<text x="908" y="188" font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, sans-serif" font-size="11" font-weight="500" fill="#71717A">23:54 WIB · Asia/Jakarta</text>
-<line x1="48" y1="228" x2="1152" y2="228" stroke="#E4E4E7" stroke-width="1"/>
-<text x="48" y="246" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="500" fill="#71717A" letter-spacing="0.2">Latest event reflects GitHub’s recent public events window only — not a total of commits or contributions.</text>
+<desc id="activity-light-desc">Public repositories: 32. Followers: 1. Latest public event: Push on 19 Nov 2026. Refreshed 21 Nov 2026, 00:03 WIB.</desc>
+<rect x="0" y="0" width="1200" height="330" rx="28" fill="#F5F5F4"/>
+<text x="48" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#71717A" letter-spacing="1.6">GITHUB · REFRESHED DAILY</text>
+<text x="46" y="106" font-family="-apple-system, BlinkMacSystemFont, &apos;SF Pro Display&apos;, Inter, &apos;Segoe UI&apos;, Roboto, sans-serif" font-size="42" font-weight="500" fill="#18181B" letter-spacing="-1.4">Public activity</text>
+<text x="1152" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="500" fill="#71717A" text-anchor="end" letter-spacing="1.6">SOURCE · GITHUB REST API</text>
+<rect x="48" y="136" width="264" height="150" rx="24" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1"/>
+<text x="70" y="172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="500" fill="#71717A" letter-spacing="1.2">01 — PUBLIC REPOSITORIES</text>
+<text x="68" y="236" font-family="-apple-system, BlinkMacSystemFont, &apos;SF Pro Display&apos;, Inter, &apos;Segoe UI&apos;, Roboto, sans-serif" font-size="52" font-weight="600" fill="#18181B" letter-spacing="-2">32</text>
+<text x="70" y="264" font-family="-apple-system, BlinkMacSystemFont, &apos;SF Pro Display&apos;, Inter, &apos;Segoe UI&apos;, Roboto, sans-serif" font-size="12" font-weight="500" fill="#71717A">Owned, public</text>
+<rect x="328" y="136" width="264" height="150" rx="24" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1"/>
+<text x="350" y="172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="500" fill="#71717A" letter-spacing="1.2">02 — FOLLOWERS</text>
+<text x="348" y="236" font-family="-apple-system, BlinkMacSystemFont, &apos;SF Pro Display&apos;, Inter, &apos;Segoe UI&apos;, Roboto, sans-serif" font-size="52" font-weight="600" fill="#18181B" letter-spacing="-2">1</text>
+<text x="350" y="264" font-family="-apple-system, BlinkMacSystemFont, &apos;SF Pro Display&apos;, Inter, &apos;Segoe UI&apos;, Roboto, sans-serif" font-size="12" font-weight="500" fill="#71717A">GitHub followers</text>
+<rect x="608" y="136" width="264" height="150" rx="24" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1"/>
+<text x="630" y="172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="500" fill="#71717A" letter-spacing="1.2">03 — LATEST PUBLIC EVENT</text>
+<circle cx="846" cy="168" r="3.5" fill="#10B981"/>
+<text x="628" y="236" font-family="-apple-system, BlinkMacSystemFont, &apos;SF Pro Display&apos;, Inter, &apos;Segoe UI&apos;, Roboto, sans-serif" font-size="30" font-weight="600" fill="#18181B" letter-spacing="-1">19 Nov 2026</text>
+<text x="630" y="264" font-family="-apple-system, BlinkMacSystemFont, &apos;SF Pro Display&apos;, Inter, &apos;Segoe UI&apos;, Roboto, sans-serif" font-size="12" font-weight="500" fill="#71717A">Push · kedai-karuhun</text>
+<rect x="888" y="136" width="264" height="150" rx="24" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1"/>
+<text x="910" y="172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="500" fill="#71717A" letter-spacing="1.2">04 — LAST REFRESH</text>
+<text x="908" y="236" font-family="-apple-system, BlinkMacSystemFont, &apos;SF Pro Display&apos;, Inter, &apos;Segoe UI&apos;, Roboto, sans-serif" font-size="30" font-weight="600" fill="#18181B" letter-spacing="-1">21 Nov 2026</text>
+<text x="910" y="264" font-family="-apple-system, BlinkMacSystemFont, &apos;SF Pro Display&apos;, Inter, &apos;Segoe UI&apos;, Roboto, sans-serif" font-size="12" font-weight="500" fill="#71717A">00:03 WIB · Asia/Jakarta</text>
+<text x="48" y="314" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="500" fill="#A1A1AA" letter-spacing="0.2">Latest event reflects GitHub’s recent public events window only — not a total of commits or contributions.</text>
 </svg>

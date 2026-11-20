@@ -4,7 +4,7 @@
 import { readFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { THEMES, MONO, doc, text, line, rect, clamp } from "./lib/svg.mjs";
+import { THEMES, MONO, doc, text, rect, clamp, sectionHeader } from "./lib/svg.mjs";
 import { writeAllAtomic } from "./lib/write.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -124,41 +124,42 @@ const model = {
 // ---------------------------------------------------------------- render
 function activity(theme) {
   const t = THEMES[theme];
-  const W = 1200, H = 260;
-  const b = [];
-  b.push(text(48, 52, "Public Activity", { size: 22, weight: 600, fill: t.text }));
-  b.push(text(1152, 52, "SOURCE · GITHUB REST API", { size: 10, weight: 500, fill: t.muted, family: MONO, anchor: "end", spacing: 1 }));
+  const W = 1200, H = 330;
+  const b = [sectionHeader(t, { eyebrow: "GitHub · refreshed daily", title: "Public activity", aside: "source · GitHub REST API" })];
 
+  const [refreshDay, refreshTime = ""] = model.refreshedAt.split(", ");
   const cells = [
-    { label: "01 — PUBLIC REPOSITORIES", value: model.publicRepos ?? "N/A", sub: "Owned, public" },
-    { label: "02 — FOLLOWERS", value: model.followers ?? "N/A", sub: "GitHub followers" },
+    { label: "01 — Public repositories", value: model.publicRepos ?? "N/A", sub: "Owned, public" },
+    { label: "02 — Followers", value: model.followers ?? "N/A", sub: "GitHub followers" },
     model.latestEvent
       ? {
-          label: "03 — LATEST PUBLIC EVENT",
+          label: "03 — Latest public event",
           value: model.latestEvent.date,
           sub: clamp(`${model.latestEvent.type}${model.latestEvent.repo ? " · " + model.latestEvent.repo : ""}`, 34),
           small: true,
           dot: true,
         }
-      : { label: "03 — LATEST PUBLIC EVENT", value: "NO RECENT PUBLIC ACTIVITY", sub: "Public events feed is empty", tiny: true },
-    { label: "04 — LAST REFRESH", value: model.refreshedAt.split(", ")[0], sub: `${model.refreshedAt.split(", ")[1] ?? ""} WIB · Asia/Jakarta`, small: true },
+      : { label: "03 — Latest public event", value: "NO RECENT PUBLIC ACTIVITY", sub: "Public events feed is empty", tiny: true },
+    { label: "04 — Last refresh", value: refreshDay, sub: `${refreshTime} WIB · Asia/Jakarta`, small: true },
   ];
 
-  const colW = 264, gap = 16, top = 76, h = 132;
+  const colW = 264, gap = 16, top = 136, h = 150;
   cells.forEach((c, i) => {
     const x = 48 + i * (colW + gap);
-    b.push(rect(x, top, colW, h, { fill: t.surface, stroke: t.border, rx: 10 }));
-    b.push(text(x + 20, top + 30, c.label, { size: 10, weight: 500, fill: t.muted, family: MONO, spacing: 1 }));
-    if (c.dot) b.push(`<circle cx="${x + colW - 22}" cy="${top + 26}" r="3" fill="${t.accent}"/>`);
-    const size = c.tiny ? 13 : c.small ? 26 : 40;
-    const weight = c.tiny ? 600 : 700;
-    b.push(text(x + 20, top + 86, String(c.value), { size, weight, fill: t.text, family: c.tiny ? MONO : undefined, spacing: c.tiny ? 0.8 : -0.5 }));
-    b.push(text(x + 20, top + 112, c.sub, { size: 11, weight: 500, fill: t.muted }));
+    b.push(rect(x, top, colW, h, { fill: t.surface, stroke: t.border, rx: 24 }));
+    b.push(text(x + 22, top + 36, c.label.toUpperCase(), { size: 11, weight: 500, fill: t.label, family: MONO, spacing: 1.2 }));
+    if (c.dot) b.push(`<circle cx="${x + colW - 26}" cy="${top + 32}" r="3.5" fill="${t.accent}"/>`);
+    const size = c.tiny ? 13 : c.small ? 30 : 52;
+    b.push(
+      text(x + 20, top + 100, String(c.value), {
+        size, weight: c.tiny ? 600 : 600, fill: t.text, family: c.tiny ? MONO : undefined, spacing: c.tiny ? 0.8 : c.small ? -1 : -2,
+      }),
+    );
+    b.push(text(x + 22, top + 128, c.sub, { size: 12, weight: 500, fill: t.label }));
   });
-  b.push(line(48, 228, 1152, 228, t.border));
   b.push(
-    text(48, 246, "Latest event reflects GitHub’s recent public events window only — not a total of commits or contributions.", {
-      size: 10, weight: 500, fill: t.muted, family: MONO, spacing: 0.2,
+    text(48, 314, "Latest event reflects GitHub’s recent public events window only — not a total of commits or contributions.", {
+      size: 11, weight: 500, fill: t.faint, family: MONO, spacing: 0.2,
     }),
   );
   return doc({

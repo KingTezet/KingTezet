@@ -1,13 +1,13 @@
 import { writeFile, rename, rm } from "node:fs/promises";
 
-const FORBIDDEN = /<\s*(script|foreignObject)\b|\son[a-z]+\s*=|(?:xlink:)?href\s*=\s*["']\s*(?:https?:|\/\/|data:)/i;
+const FORBIDDEN = /<\s*(script|foreignObject)\b|\son[a-z]+\s*=|(?:xlink:)?href\s*=\s*["']\s*(?:https?:|\/\/|data:(?!image\/(?:jpeg|png|webp);base64,))/i;
 
 /** Lightweight pre-write sanity check. Full XML validation runs in validate-svg.py. */
 export function assertSvg(name, svg) {
   if (!svg.startsWith("<svg ") || !svg.trimEnd().endsWith("</svg>")) {
     throw new Error(`${name}: malformed SVG envelope`);
   }
-  if (/undefined|NaN|\[object /.test(svg)) throw new Error(`${name}: unresolved value in output`);
+  if (/undefined|NaN|\[object /.test(svg.replace(/data:image\/[a-z]+;base64,[A-Za-z0-9+/=]+/g, ""))) throw new Error(`${name}: unresolved value in output`);
   if (FORBIDDEN.test(svg)) throw new Error(`${name}: forbidden SVG content`);
   const open = (svg.match(/<text\b/g) || []).length;
   const close = (svg.match(/<\/text>/g) || []).length;

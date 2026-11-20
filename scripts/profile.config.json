@@ -1,19 +1,25 @@
 {
   "profile": {
-    "name": "Moch. Sugih Nugraha",
+    "name": "Moch Sugih Nugraha",
     "githubUser": "KingTezet",
     "role": "Frontend Engineer & Product Engineer",
+    "eyebrow": "Frontend Engineer · React · Next.js · TypeScript",
+    "headline": [
+      "I build web interfaces",
+      "for real-world work."
+    ],
     "tagline": "Building thoughtful digital products through engineering, design, and systems thinking.",
-    "availability": "Open to Remote Roles",
+    "availability": "Open to remote roles",
     "markets": [
       "Global",
       "US",
       "Singapore"
     ],
-    "location": null,
+    "photo": "assets/img/profile.jpg",
     "website": "https://moch-sugih-nugraha-v2.vercel.app",
-    "linkedin": null,
-    "email": null
+    "linkedin": "https://www.linkedin.com/in/moch-sugih-nugraha/",
+    "email": "mochsugihnugraha@gmail.com",
+    "contactSource": "LinkedIn and email are the ones published on the owner's portfolio site."
   },
   "stack": [
     {
@@ -34,7 +40,8 @@
       "items": [
         "Supabase",
         "PostgreSQL",
-        "REST APIs"
+        "Laravel",
+        "MySQL"
       ]
     },
     {
@@ -42,6 +49,7 @@
       "title": "Infrastructure",
       "primary": false,
       "items": [
+        "Vercel",
         "Docker",
         "Git",
         "GitHub Actions"
@@ -53,105 +61,109 @@
       "primary": false,
       "items": [
         "WebXR",
-        "3D Asset Optimization",
-        "Geometry Analysis"
+        "Three.js",
+        "Blender",
+        "GLTF / GLB"
       ]
     }
   ],
   "projects": [
     {
-      "id": "medal-umkm",
+      "id": "vr-geonusa",
       "index": "01",
-      "name": "MEDAL",
-      "category": "Event & MSME directory platform",
-      "description": "Platform for local events, stand registration, and an MSME directory for Sumedang Regency, built around a verified admin review workflow.",
+      "name": "VR GeoNusa",
+      "subtitle": "Interactive 3D Geometry Learning",
+      "category": "WebXR · 3D",
+      "description": "Interactive WebXR platform for learning geometry through Indonesian heritage — 360° tours of Borobudur and Prambanan.",
       "highlights": [
-        "Next.js 16",
-        "TypeScript",
-        "Supabase RLS",
-        "RPC state transitions",
-        "Zod",
-        "Vitest"
+        "WebXR (A-Frame)",
+        "Three.js",
+        "Blender",
+        "GLTF / GLB"
       ],
-      "repositoryUrl": "https://github.com/KingTezet/medal-umkm",
-      "demoUrl": "https://medal-umkm.vercel.app",
+      "cover": "assets/img/vr-geonusa.jpg",
+      "repositoryUrl": "https://github.com/Fathoni89/VR-GeoNusa",
+      "demoUrl": "https://vr-geonusa.my.id",
       "visibility": "public",
+      "note": "Research team project (Hibah Fundamental BIMA 2026); repository owned by a team member.",
       "featured": true
     },
     {
-      "id": "kedai-karuhun",
+      "id": "siperta",
       "index": "02",
-      "name": "Kedai Karuhun",
-      "category": "Mobile-first commerce PWA",
-      "description": "Mobile-first commerce application with phone-number authentication, admin tooling, configurable store theming, and web push.",
+      "name": "SIPERTA",
+      "subtitle": "Land & Asset Information System",
+      "category": "GovTech · Web Mapping",
+      "description": "Land information system for West Bandung Regency — web-mapped spatial data, SHP uploads, Excel imports, cross-agency search.",
       "highlights": [
-        "Next.js",
-        "React",
-        "TypeScript",
-        "Supabase Auth / Postgres / Storage",
-        "PWA",
-        "Web Push"
+        "Laravel",
+        "Leaflet",
+        "MySQL",
+        "Turf.js"
       ],
-      "repositoryUrl": "https://github.com/KingTezet/kedai-karuhun",
-      "demoUrl": "https://kedai-karuhun.vercel.app",
-      "visibility": "public",
-      "featured": true
-    },
-    {
-      "id": "arsis",
-      "index": "03",
-      "name": "ARSIS",
-      "category": "Enterprise construction project management",
-      "description": "Enterprise-oriented project management system for construction operations. PT Adipati Rekayasa Sistem.",
-      "highlights": [
-        "Business process digitization",
-        "Project workflows",
-        "Operational data",
-        "Enterprise architecture"
-      ],
+      "cover": "assets/img/siperta.jpg",
       "repositoryUrl": null,
       "demoUrl": null,
       "visibility": "private",
       "featured": true
     },
     {
-      "id": "nata-os",
-      "index": "04",
-      "name": "NATA OS",
-      "category": "Digital productivity architecture",
-      "description": "An integrated digital productivity ecosystem for habits, goals, focus, and financial organization.",
+      "id": "arsis",
+      "index": "03",
+      "name": "ARSIS",
+      "subtitle": "Construction Project Monitoring",
+      "category": "Internal Tools",
+      "description": "Construction monitoring platform that replaced Excel recaps with automated reports, S-Curve tracking, RAB budgets, and daily logs.",
       "highlights": [
-        "Habit OS",
-        "Money OS",
-        "Focus OS",
-        "Goals OS",
-        "Next.js",
-        "Tailwind CSS v4"
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "JavaScript"
       ],
-      "repositoryUrl": "https://github.com/KingTezet/nata-website",
-      "demoUrl": "https://nataspace.vercel.app",
+      "cover": "assets/img/arsis.jpg",
+      "repositoryUrl": null,
+      "demoUrl": null,
+      "visibility": "private",
+      "featured": true
+    },
+    {
+      "id": "medal-umkm",
+      "index": "04",
+      "name": "MEDAL",
+      "subtitle": "Event & MSME Platform",
+      "category": "Product Engineering",
+      "description": "Event and MSME directory for Sumedang Regency — stand registration, verification, and an admin review workflow.",
+      "highlights": [
+        "Next.js 16",
+        "Supabase RLS",
+        "Zod",
+        "Vitest"
+      ],
+      "cover": null,
+      "repositoryUrl": "https://github.com/KingTezet/medal-umkm",
+      "demoUrl": "https://medal-umkm.vercel.app",
       "visibility": "public",
       "featured": true
     }
   ],
   "moreProjects": [
     {
-      "name": "VR-GeoNusa",
-      "summary": "WebXR geometry learning on Nusantara heritage sites — research team collaboration",
-      "repositoryUrl": "https://github.com/Fathoni89/VR-GeoNusa",
-      "demoUrl": null
+      "name": "Kedai Karuhun",
+      "summary": "Online grocery ordering PWA (Next.js, Supabase)",
+      "repositoryUrl": "https://github.com/KingTezet/kedai-karuhun",
+      "demoUrl": "https://kedai-karuhun.vercel.app"
+    },
+    {
+      "name": "NATA OS",
+      "summary": "Digital productivity ecosystem (Next.js)",
+      "repositoryUrl": "https://github.com/KingTezet/nata-website",
+      "demoUrl": "https://nataspace.vercel.app"
     },
     {
       "name": "Ruang Tenang",
-      "summary": "Personal assistant & routine manager (Next.js, Supabase)",
+      "summary": "Routine manager (Next.js, Supabase)",
       "repositoryUrl": "https://github.com/KingTezet/ruang-tenang",
       "demoUrl": "https://ruang-tenang-delta.vercel.app"
-    },
-    {
-      "name": "Store Analytics",
-      "summary": "Multi-DBMS data pipeline & Streamlit visualization (Python)",
-      "repositoryUrl": "https://github.com/KingTezet/tugas-vdi",
-      "demoUrl": "https://store-analytics-multidbms.streamlit.app"
     }
   ]
 }

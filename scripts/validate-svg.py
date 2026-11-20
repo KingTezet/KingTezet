@@ -7,6 +7,7 @@ Checks (stdlib only, XML parsed with xml.etree.ElementTree):
   - required dark/light pairs exist with expected, matching dimensions
   - <title>/<desc> present; IDs unique per file
   - no <script>, <foreignObject>, on* attributes, or external href resources
+    (only embedded data:image/{jpeg,png,webp};base64 on <image> is allowed)
   - README.md local src / srcset / Markdown image paths resolve in the repo
 """
 from __future__ import annotations
@@ -22,12 +23,14 @@ ROOT = Path(__file__).resolve().parent.parent
 SVG_DIR = ROOT / "assets" / "svg"
 SVG_NS = "{http://www.w3.org/2000/svg}"
 EXPECTED = {
-    "hero": (1200, 300),
-    "stack": (1200, 250),
-    "projects": (1200, 540),
-    "activity": (1200, 260),
+    "hero": (1200, 440),
+    "stack": (1200, 310),
+    "projects": (1200, 1180),
+    "activity": (1200, 330),
 }
 THEMES = ("dark", "light")
+EMBEDDED_IMAGE = re.compile(r"^data:image/(jpeg|png|webp);base64,[A-Za-z0-9+/=]+$")
+MAX_SVG_BYTES = 1_500_000
 FORBIDDEN_TAGS = {"script", "foreignobject", "iframe", "object", "embed"}
 
 errors: list[str] = []
@@ -44,6 +47,8 @@ def local(tag: str) -> str:
 
 def check_svg(path: Path) -> tuple[str, str, str] | None:
     rel = path.relative_to(ROOT)
+    if path.stat().st_size > MAX_SVG_BYTES:
+        err(f"{rel}: file too large ({path.stat().st_size} bytes)")
     try:
         root = ET.parse(path).getroot()
     except ET.ParseError as exc:
@@ -75,7 +80,10 @@ def check_svg(path: Path) -> tuple[str, str, str] | None:
             if aname.startswith("on"):
                 err(f"{rel}: event handler attribute '{aname}'")
             if aname == "href" and value and not value.startswith("#"):
-                err(f"{rel}: external href resource '{value}'")
+                if not EMBEDDED_IMAGE.match(value):
+                    err(f"{rel}: external href resource '{value[:60]}'")
+                elif name != "image":
+                    err(f"{rel}: data URI on non-image element <{name}>")
             if aname == "style" and re.search(r"url\(\s*['\"]?(?!#)", value):
                 err(f"{rel}: external url() in style")
             if aname == "id":
