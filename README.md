@@ -35,7 +35,7 @@ Currently open to remote opportunities worldwide, including teams in the US and 
 | 03 | **ARSIS** — enterprise construction project management | Private project |
 | 04 | **NATA OS** — digital productivity architecture | [Repository](https://github.com/KingTezet/nata-website) · [Live site](https://nataspace.vercel.app) |
 
-More: [Ruang Tenang](https://github.com/KingTezet/ruang-tenang) (routine manager, Next.js + Supabase) · [Store Analytics](https://github.com/KingTezet/tugas-vdi) (multi-DBMS pipeline, Streamlit)
+More: [VR-GeoNusa](https://github.com/Fathoni89/VR-GeoNusa) (WebXR geometry learning on heritage sites — research team collaboration) · [Ruang Tenang](https://github.com/KingTezet/ruang-tenang) (routine manager, Next.js + Supabase) · [Store Analytics](https://github.com/KingTezet/tugas-vdi) (multi-DBMS pipeline, Streamlit)
 
 <br />
 

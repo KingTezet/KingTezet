@@ -5,17 +5,58 @@
     "role": "Frontend Engineer & Product Engineer",
     "tagline": "Building thoughtful digital products through engineering, design, and systems thinking.",
     "availability": "Open to Remote Roles",
-    "markets": ["Global", "US", "Singapore"],
+    "markets": [
+      "Global",
+      "US",
+      "Singapore"
+    ],
     "location": null,
     "website": "https://moch-sugih-nugraha-v2.vercel.app",
     "linkedin": null,
     "email": null
   },
   "stack": [
-    { "index": "01", "title": "Frontend", "primary": true, "items": ["React", "Next.js", "TypeScript", "Tailwind CSS"] },
-    { "index": "02", "title": "Backend & Data", "primary": false, "items": ["Supabase", "PostgreSQL", "REST APIs"] },
-    { "index": "03", "title": "Infrastructure", "primary": false, "items": ["Docker", "Git", "GitHub Actions"] },
-    { "index": "04", "title": "Spatial & 3D", "primary": false, "items": ["WebXR", "3D Asset Optimization", "Geometry Analysis"] }
+    {
+      "index": "01",
+      "title": "Frontend",
+      "primary": true,
+      "items": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "index": "02",
+      "title": "Backend & Data",
+      "primary": false,
+      "items": [
+        "Supabase",
+        "PostgreSQL",
+        "REST APIs"
+      ]
+    },
+    {
+      "index": "03",
+      "title": "Infrastructure",
+      "primary": false,
+      "items": [
+        "Docker",
+        "Git",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "index": "04",
+      "title": "Spatial & 3D",
+      "primary": false,
+      "items": [
+        "WebXR",
+        "3D Asset Optimization",
+        "Geometry Analysis"
+      ]
+    }
   ],
   "projects": [
     {
@@ -24,7 +65,14 @@
       "name": "MEDAL",
       "category": "Event & MSME directory platform",
       "description": "Platform for local events, stand registration, and an MSME directory for Sumedang Regency, built around a verified admin review workflow.",
-      "highlights": ["Next.js 16", "TypeScript", "Supabase RLS", "RPC state transitions", "Zod", "Vitest"],
+      "highlights": [
+        "Next.js 16",
+        "TypeScript",
+        "Supabase RLS",
+        "RPC state transitions",
+        "Zod",
+        "Vitest"
+      ],
       "repositoryUrl": "https://github.com/KingTezet/medal-umkm",
       "demoUrl": "https://medal-umkm.vercel.app",
       "visibility": "public",
@@ -36,7 +84,14 @@
       "name": "Kedai Karuhun",
       "category": "Mobile-first commerce PWA",
       "description": "Mobile-first commerce application with phone-number authentication, admin tooling, configurable store theming, and web push.",
-      "highlights": ["Next.js", "React", "TypeScript", "Supabase Auth / Postgres / Storage", "PWA", "Web Push"],
+      "highlights": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Supabase Auth / Postgres / Storage",
+        "PWA",
+        "Web Push"
+      ],
       "repositoryUrl": "https://github.com/KingTezet/kedai-karuhun",
       "demoUrl": "https://kedai-karuhun.vercel.app",
       "visibility": "public",
@@ -48,7 +103,12 @@
       "name": "ARSIS",
       "category": "Enterprise construction project management",
       "description": "Enterprise-oriented project management system for construction operations. PT Adipati Rekayasa Sistem.",
-      "highlights": ["Business process digitization", "Project workflows", "Operational data", "Enterprise architecture"],
+      "highlights": [
+        "Business process digitization",
+        "Project workflows",
+        "Operational data",
+        "Enterprise architecture"
+      ],
       "repositoryUrl": null,
       "demoUrl": null,
       "visibility": "private",
@@ -60,7 +120,14 @@
       "name": "NATA OS",
       "category": "Digital productivity architecture",
       "description": "An integrated digital productivity ecosystem for habits, goals, focus, and financial organization.",
-      "highlights": ["Habit OS", "Money OS", "Focus OS", "Goals OS", "Next.js", "Tailwind CSS v4"],
+      "highlights": [
+        "Habit OS",
+        "Money OS",
+        "Focus OS",
+        "Goals OS",
+        "Next.js",
+        "Tailwind CSS v4"
+      ],
       "repositoryUrl": "https://github.com/KingTezet/nata-website",
       "demoUrl": "https://nataspace.vercel.app",
       "visibility": "public",
@@ -68,7 +135,23 @@
     }
   ],
   "moreProjects": [
-    { "name": "Ruang Tenang", "summary": "Personal assistant & routine manager (Next.js, Supabase)", "repositoryUrl": "https://github.com/KingTezet/ruang-tenang", "demoUrl": "https://ruang-tenang-delta.vercel.app" },
-    { "name": "Store Analytics", "summary": "Multi-DBMS data pipeline & Streamlit visualization (Python)", "repositoryUrl": "https://github.com/KingTezet/tugas-vdi", "demoUrl": "https://store-analytics-multidbms.streamlit.app" }
+    {
+      "name": "VR-GeoNusa",
+      "summary": "WebXR geometry learning on Nusantara heritage sites — research team collaboration",
+      "repositoryUrl": "https://github.com/Fathoni89/VR-GeoNusa",
+      "demoUrl": null
+    },
+    {
+      "name": "Ruang Tenang",
+      "summary": "Personal assistant & routine manager (Next.js, Supabase)",
+      "repositoryUrl": "https://github.com/KingTezet/ruang-tenang",
+      "demoUrl": "https://ruang-tenang-delta.vercel.app"
+    },
+    {
+      "name": "Store Analytics",
+      "summary": "Multi-DBMS data pipeline & Streamlit visualization (Python)",
+      "repositoryUrl": "https://github.com/KingTezet/tugas-vdi",
+      "demoUrl": "https://store-analytics-multidbms.streamlit.app"
+    }
   ]
 }
