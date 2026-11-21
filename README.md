@@ -25,7 +25,7 @@ Currently open to remote opportunities worldwide, including teams in the US and 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/svg/projects-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/svg/projects-light.svg" />
-  <img src="assets/svg/projects-light.svg" alt="Featured projects: 01 VR GeoNusa (WebXR geometry learning), 02 SIPERTA (land and asset information system, private), 03 ARSIS (construction project monitoring, private), 04 MEDAL (event and MSME platform)." width="100%" />
+  <img src="assets/svg/projects-light.svg" alt="Featured projects: 01 VR GeoNusa (WebXR geometry learning), 02 SIPERTA (land and asset information system, private), 03 ARSIS (construction project monitoring, private), 04 CryptoWave (immersive editorial redesign)." width="100%" />
 </picture>
 
 | | Project | Links |
@@ -33,9 +33,9 @@ Currently open to remote opportunities worldwide, including teams in the US and 
 | 01 | **VR GeoNusa** — interactive 3D geometry learning (research team project) | [Live demo](https://vr-geonusa.my.id) · [Repository](https://github.com/Fathoni89/VR-GeoNusa) |
 | 02 | **SIPERTA** — land & asset information system | Private client work |
 | 03 | **ARSIS** — construction project monitoring | Private client work |
-| 04 | **MEDAL** — event & MSME platform | [Live demo](https://medal-umkm.vercel.app) · [Repository](https://github.com/KingTezet/medal-umkm) |
+| 04 | **CryptoWave** — immersive editorial redesign | [Live demo](https://cryptowave-redesign.vercel.app) |
 
-More work: [TIDELINE](https://tideline-ten-alpha.vercel.app) · [CryptoWave](https://cryptowave-redesign.vercel.app) · [NATA Space](https://nata-space.vercel.app) · [Kedai Karuhun](https://www.kedaikaruhun.my.id) · [NATA OS](https://github.com/KingTezet/nata-website) · [Ruang Tenang](https://github.com/KingTezet/ruang-tenang) · full case studies on the [portfolio](https://mochsugihnugraha.my.id/projects)
+More work: [MEDAL](https://medal-umkm.vercel.app) · [TIDELINE](https://tideline-ten-alpha.vercel.app) · [NATA Space](https://nata-space.vercel.app) · [Kedai Karuhun](https://www.kedaikaruhun.my.id) · [NATA OS](https://github.com/KingTezet/nata-website) · [Ruang Tenang](https://github.com/KingTezet/ruang-tenang) · full case studies on the [portfolio](https://mochsugihnugraha.my.id/projects)
 
 <br />
 

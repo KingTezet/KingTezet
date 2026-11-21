@@ -127,8 +127,27 @@
       "featured": true
     },
     {
-      "id": "medal-umkm",
+      "id": "cryptowave",
       "index": "04",
+      "name": "CryptoWave",
+      "subtitle": "Immersive Editorial Redesign",
+      "category": "Creative Frontend · 3D",
+      "description": "Editorial redesign of a crypto news and research site — Three.js wave hero, GSAP scroll motion, live routes and content.",
+      "highlights": [
+        "Vite",
+        "Three.js",
+        "GSAP",
+        "Playwright"
+      ],
+      "cover": "assets/img/cryptowave.jpg",
+      "repositoryUrl": null,
+      "demoUrl": "https://cryptowave-redesign.vercel.app",
+      "visibility": "public",
+      "featured": true
+    },
+    {
+      "id": "medal-umkm",
+      "index": "05",
       "name": "MEDAL",
       "subtitle": "Event & MSME Platform",
       "category": "Product Engineering",
@@ -143,21 +162,21 @@
       "repositoryUrl": "https://github.com/KingTezet/medal-umkm",
       "demoUrl": "https://medal-umkm.vercel.app",
       "visibility": "public",
-      "featured": true
+      "featured": false
     }
   ],
   "moreProjects": [
+    {
+      "name": "MEDAL",
+      "summary": "Event & MSME platform (Next.js 16, Supabase RLS)",
+      "repositoryUrl": "https://github.com/KingTezet/medal-umkm",
+      "demoUrl": "https://medal-umkm.vercel.app"
+    },
     {
       "name": "TIDELINE",
       "summary": "Ocean freight website concept (Next.js 16, Three.js)",
       "repositoryUrl": null,
       "demoUrl": "https://tideline-ten-alpha.vercel.app"
-    },
-    {
-      "name": "CryptoWave",
-      "summary": "Immersive editorial redesign (Vite, Three.js, GSAP)",
-      "repositoryUrl": null,
-      "demoUrl": "https://cryptowave-redesign.vercel.app"
     },
     {
       "name": "NATA Space",
