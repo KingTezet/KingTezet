@@ -35,7 +35,7 @@ Currently open to remote opportunities worldwide, including teams in the US and 
 | 03 | **ARSIS** — construction project monitoring | Private client work |
 | 04 | **MEDAL** — event & MSME platform | [Live demo](https://medal-umkm.vercel.app) · [Repository](https://github.com/KingTezet/medal-umkm) |
 
-More work: [Kedai Karuhun](https://github.com/KingTezet/kedai-karuhun) · [NATA OS](https://github.com/KingTezet/nata-website) · [Ruang Tenang](https://github.com/KingTezet/ruang-tenang) · full case studies on the [portfolio](https://mochsugihnugraha.my.id/projects)
+More work: [TIDELINE](https://tideline-ten-alpha.vercel.app) · [CryptoWave](https://cryptowave-redesign.vercel.app) · [NATA Space](https://nata-space.vercel.app) · [Kedai Karuhun](https://www.kedaikaruhun.my.id) · [NATA OS](https://github.com/KingTezet/nata-website) · [Ruang Tenang](https://github.com/KingTezet/ruang-tenang) · full case studies on the [portfolio](https://mochsugihnugraha.my.id/projects)
 
 <br />
 

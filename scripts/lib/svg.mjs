@@ -1,5 +1,5 @@
 // Shared SVG design system — mirrors the portfolio site
-// (moch-sugih-nugraha-v2.vercel.app): warm off-white canvas, zinc scale,
+// (mochsugihnugraha.my.id): warm off-white canvas, zinc scale,
 // SF Pro / Inter display type with tight tracking, mono uppercase labels,
 // rounded-3xl white cards, rounded-full pills, warm radial glow.
 // Pure functions, no dependencies. Same input => same output.

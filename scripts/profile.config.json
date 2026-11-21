@@ -16,7 +16,7 @@
       "Singapore"
     ],
     "photo": "assets/img/profile.jpg",
-    "website": "https://moch-sugih-nugraha-v2.vercel.app",
+    "website": "https://mochsugihnugraha.my.id",
     "linkedin": "https://www.linkedin.com/in/moch-sugih-nugraha/",
     "email": "mochsugihnugraha@gmail.com",
     "contactSource": "LinkedIn and email are the ones published on the owner's portfolio site."
@@ -148,10 +148,28 @@
   ],
   "moreProjects": [
     {
+      "name": "TIDELINE",
+      "summary": "Ocean freight website concept (Next.js 16, Three.js)",
+      "repositoryUrl": null,
+      "demoUrl": "https://tideline-ten-alpha.vercel.app"
+    },
+    {
+      "name": "CryptoWave",
+      "summary": "Immersive editorial redesign (Vite, Three.js, GSAP)",
+      "repositoryUrl": null,
+      "demoUrl": "https://cryptowave-redesign.vercel.app"
+    },
+    {
+      "name": "NATA Space",
+      "summary": "Creative-technology showcase (Next.js, React Three Fiber)",
+      "repositoryUrl": null,
+      "demoUrl": "https://nata-space.vercel.app"
+    },
+    {
       "name": "Kedai Karuhun",
       "summary": "Online grocery ordering PWA (Next.js, Supabase)",
       "repositoryUrl": "https://github.com/KingTezet/kedai-karuhun",
-      "demoUrl": "https://kedai-karuhun.vercel.app"
+      "demoUrl": "https://www.kedaikaruhun.my.id"
     },
     {
       "name": "NATA OS",
