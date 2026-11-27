@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="activity-light-title activity-light-desc">
 <title id="activity-light-title">Public GitHub activity</title>
-<desc id="activity-light-desc">Public repositories: 32. Followers: 1. Latest public event: Push on 22 Nov 2026. Refreshed 26 Nov 2026, 08:00 WIB.</desc>
+<desc id="activity-light-desc">Public repositories: 32. Followers: 1. Latest public event: Push on 22 Nov 2026. Refreshed 27 Nov 2026, 08:02 WIB.</desc>
 <rect x="0" y="0" width="1200" height="330" rx="28" fill="#F5F5F4"/>
 <text x="48" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#71717A" letter-spacing="1.6">GITHUB · REFRESHED DAILY</text>
 <text x="46" y="106" font-family="-apple-system, BlinkMacSystemFont, &apos;SF Pro Display&apos;, Inter, &apos;Segoe UI&apos;, Roboto, sans-serif" font-size="42" font-weight="500" fill="#18181B" letter-spacing="-1.4">Public activity</text>
@@ -20,7 +20,7 @@
 <text x="630" y="264" font-family="-apple-system, BlinkMacSystemFont, &apos;SF Pro Display&apos;, Inter, &apos;Segoe UI&apos;, Roboto, sans-serif" font-size="12" font-weight="500" fill="#71717A">Push · portofoliov2</text>
 <rect x="888" y="136" width="264" height="150" rx="24" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1"/>
 <text x="910" y="172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="500" fill="#71717A" letter-spacing="1.2">04 — LAST REFRESH</text>
-<text x="908" y="236" font-family="-apple-system, BlinkMacSystemFont, &apos;SF Pro Display&apos;, Inter, &apos;Segoe UI&apos;, Roboto, sans-serif" font-size="30" font-weight="600" fill="#18181B" letter-spacing="-1">26 Nov 2026</text>
-<text x="910" y="264" font-family="-apple-system, BlinkMacSystemFont, &apos;SF Pro Display&apos;, Inter, &apos;Segoe UI&apos;, Roboto, sans-serif" font-size="12" font-weight="500" fill="#71717A">08:00 WIB · Asia/Jakarta</text>
+<text x="908" y="236" font-family="-apple-system, BlinkMacSystemFont, &apos;SF Pro Display&apos;, Inter, &apos;Segoe UI&apos;, Roboto, sans-serif" font-size="30" font-weight="600" fill="#18181B" letter-spacing="-1">27 Nov 2026</text>
+<text x="910" y="264" font-family="-apple-system, BlinkMacSystemFont, &apos;SF Pro Display&apos;, Inter, &apos;Segoe UI&apos;, Roboto, sans-serif" font-size="12" font-weight="500" fill="#71717A">08:02 WIB · Asia/Jakarta</text>
 <text x="48" y="314" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="500" fill="#A1A1AA" letter-spacing="0.2">Latest event reflects GitHub’s recent public events window only — not a total of commits or contributions.</text>
 </svg>
